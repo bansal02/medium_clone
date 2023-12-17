@@ -1,0 +1,128 @@
+
+---
+ar_internal_metadata:
+  columns:
+  - key
+  - value
+  - created_at
+  - updated_at
+  records: 
+  - - environment
+    - development
+    - '2023-08-05 13:06:04.391562'
+    - '2023-08-05 13:06:04.391562'
+
+---
+articles:
+  columns:
+  - id
+  - title
+  - author_id
+  - topic_id
+  - text
+  - comments
+  - likes
+  - views
+  - created_at
+  - updated_at
+  - image
+  records: 
+  - - 1
+    - Assignment
+    - 1
+    - 1
+    - some random text
+    -
+    -
+    - 1
+    - '2023-08-05 13:08:27.255352'
+    - '2023-08-05 13:08:48.825997'
+    -
+
+---
+authors:
+  columns:
+  - id
+  - name
+  - username
+  - interest
+  - speciality
+  - article_ids
+  - following_ids
+  - saved_ids
+  - views
+  - shared_lists
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - FullName
+    - puglu
+    - adventure
+    - adventure
+    -
+    -
+    -
+    - 0
+    -
+    - '2023-08-05 13:06:47.997936'
+    - '2023-08-05 13:06:47.997936'
+
+---
+statuses:
+  columns:
+  - id
+  - username
+  - requests
+  - views
+  - last_request_date
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - puglu
+    - 1
+    - 1
+    - '2023-08-05'
+    - '2023-08-05 13:08:48.790412'
+    - '2023-08-05 13:08:48.790412'
+
+---
+topics:
+  columns:
+  - id
+  - name
+  - article_ids
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - horror
+    -
+    - '2023-08-05 13:08:27.193039'
+    - '2023-08-05 13:08:27.193039'
+
+---
+users:
+  columns:
+  - id
+  - email
+  - username
+  - encrypted_password
+  - reset_password_token
+  - reset_password_sent_at
+  - remember_created_at
+  - created_at
+  - updated_at
+  - jti
+  records: 
+  - - 1
+    - puglu@gmail.com
+    - puglu
+    - "$2a$12$xUMdFgxI7Forff2BVfqRfO4WamRePRys.o9bo9ZE9RCI61RJAL4cm"
+    -
+    -
+    -
+    - '2023-08-05 13:06:47.860562'
+    - '2023-08-05 13:06:47.860562'
+    - 3156f0c1-2b85-48e7-9035-3e176152473e
